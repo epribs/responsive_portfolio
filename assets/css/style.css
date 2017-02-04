@@ -221,11 +221,11 @@ footer {
 
 @media only screen and (max-width: 768px) {
   .wrapper {
-		width: 768px;
-		margin: 0 auto;
+	width: 100%;
+	margin: 0 auto;
 	}
 	#main {
-	width: 100%;
+	width: 720px;
 	background:#ffffff;
 	padding: 20px;
 	margin: 20px;
@@ -233,30 +233,34 @@ footer {
 	float: left;
 	}
 	#sidebar {
-	width: 100%;
+	width: 720px;
 	background:#ffffff;
 	padding: 20px;
 	margin:0 20px 20px;
 	box-sizing: border-box;
 	float: left;
 	}
+	.social {
+		margin: 0 auto;
+	}
 }
 
 @media only screen and (max-width: 640px) {
-   .wrapper {
-		width: 640px;
-		margin: 0 auto;
+  .wrapper {
+	width: 100%;
+	margin: 0 auto;
 	}
 	#main {
-	width: 100%;
+	width: 600px;
 	background:#ffffff;
 	padding: 20px;
 	margin: 20px;
 	box-sizing: border-box;
 	float: left;
+	overflow-x: hidden;
 	}
 	#sidebar {
-	width: 100%;
+	width: 600px;
 	background:#ffffff;
 	padding: 20px;
 	margin:0 20px 20px;
@@ -265,8 +269,12 @@ footer {
 	}
 	.about img {
 	width: 100%;
+  overflow-x: hidden;
 	height: auto;
-	margin: 20px;
+	margin: 20px 0;
 	float: left;
-}
+	}
+	.social {
+		margin: 0 auto;
+	}
 }
